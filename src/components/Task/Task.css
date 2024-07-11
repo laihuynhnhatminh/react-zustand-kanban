@@ -1,0 +1,41 @@
+.task {
+  background-color: var(--COLOR-WHITE);
+  color: var(--COLOR-BLACK);
+  border-radius: 4px;
+  min-height: 5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: move;
+}
+
+.bottomWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trashIcon {
+  cursor: pointer;
+  height: 1.25rem;
+}
+
+.status {
+  font-size: small;
+  background: var(--COLOR-GRAY-LIGHT);
+  padding: 0.25rem;
+  border-radius: 8px;
+}
+
+.PLANNED {
+  background: var(--COLOR-GRAY-LIGHT);
+}
+
+.ONGOING {
+  background: var(--COLOR-ONGOING);
+}
+
+.DONE {
+  background: var(--COLOR-DONE);
+}

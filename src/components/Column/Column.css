@@ -1,0 +1,60 @@
+.column {
+  background-color: var(--COLOR-GRAY-DARK);
+  min-height: 20rem;
+  color: var(--COLOR-WHITE);
+  width: 33%;
+  max-width: 20rem;
+  margin: 0 0.5rem;
+  border-radius: 8px;
+  padding: 0.5rem;
+  border: dashed transparent 4px;
+}
+
+.column.drop {
+  border-color: white;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleWrapper button {
+  all: unset;
+  color: var(--COLOR-BLACK);
+  background-color: var(--COLOR-WHITE);
+  padding: 0.5rem;
+  border-radius: 4px;
+  height: fit-content;
+}
+
+.titleWrapper button:hover {
+  background-color: var(--COLOR-GRAY-LIGHT);
+  cursor: pointer;
+}
+
+.Modal {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.modalContent {
+  height: 5rem;
+  width: 20rem;
+  background: var(--COLOR-WHITE);
+  position: absolute;
+  z-index: 1000;
+  padding: 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
